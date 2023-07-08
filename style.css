@@ -1,0 +1,154 @@
+.search{
+    border-radius: 20px;
+    border: 2px solid black;
+    
+}
+.search:hover{
+    background-color: rgb(101, 169, 197);
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form-control{
+    background-color: rgb(47, 55, 58);
+}
+.form-control:hover{
+background-color: rgb(47, 55, 58);
+color: white;
+}
+
+body {
+  height: 100vh;
+  background-image: url(weather1.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.container3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  align-content: center;
+  margin-top: 180px;
+  font-size: 550%;
+  animation: moveInLeft 3s ease-in-out;
+}
+.title2 {
+  margin-top: 5px;
+  font-size: 250%;
+  animation: moveInRight 3s ease-in-out;
+}
+
+.btn-light {
+  align-content: center;
+  margin-top: 35px;
+  border-radius: 26px;
+  background-color: rgb(150, 167, 208);
+  font-size: 20px;
+  animation: bounce 3s;
+}
+
+@keyframes moveInLeft {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(0vw);
+  }
+}
+
+@keyframes moveInRight {
+  from {
+    transform: translateX(+50vw);
+  }
+  to {
+    transform: translateX(0vw);
+  }
+}
+@keyframes bounce {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.main33 {
+    height: 100vh;
+  display: none;
+  background-image: 
+  linear-gradient(
+       to bottom,
+      rgba(22, 45, 84, 0.4),
+      rgba(194, 233, 251, 0.4)
+    ),
+    url(weather1.jpg);
+  background-size:cover;
+  background-position:top;
+
+ 
+}
+
+.degree {
+  content: "\2103";
+}
+.card-header {
+  background-color: rgb(102, 113, 118);
+}
+
+.card {
+  animation: box1 2s ease-in;
+  animation-iteration-count: 1;
+}
+/* .card:hover {
+  background-color:rgb(70, 120, 189);
+} */
+
+@keyframes box1 {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(0vw);
+  }
+}
+
+.footer {
+  animation: box2 2s ease-in;
+  animation-iteration-count: 1;
+}
+
+@keyframes box2 {
+  from {
+    transform: translateY(50vw);
+  }
+  to {
+    transform: translateY(0vw);
+  }
+}
+
+.table-responsive,
+th,
+td {
+  /* border: 2px solid black; */
+  text-align: center;
+  box-sizing: border-box;
+}
+tr:hover {
+  background-color: rgb(70, 120, 189);
+}
+
+.footertitle {
+  font-weight: 1500;
+  color: black;
+}
+
+.text-muted {
+  color: black;
+}
